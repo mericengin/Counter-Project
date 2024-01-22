@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+}
+
+#countLabel {
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#increase {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+}
+
+#decrease {
+    color: #fff;
+    border: none;
+    background-color: #f44336;
+}
+
+#reset {
+    color: #fff;
+    border: none;
+    background-color: #3499db;
+}
+
+body {
+    background-color: hsl(0, 0%, 85%);
+}
